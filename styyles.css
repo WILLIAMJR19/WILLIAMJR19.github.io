@@ -6,10 +6,20 @@ body {
 .assignment{
     display:flex;
     padding:10px;
+    margin:10px;
+    margin-bottom: 30px;
     background:lightgray;
+
 }
 
 .assignment img{
     width:200px;
+    border: 2px seagreen;
+    margin-right:20px;
+    border-radius:5px;
     padding:10px;
+
+}
+.assignment a:hover {
+    color:red;
 }
