@@ -9,6 +9,8 @@ body {
     margin:10px;
     margin-bottom: 30px;
     background:lightgray;
+    border-radius:5px;
+    box-shadow: 5px 8px #401201;
 
 }
 
@@ -17,9 +19,18 @@ body {
     border: 2px seagreen;
     margin-right:20px;
     border-radius:5px;
-    padding:10px;
+    
 
 }
+h1{
+    color:#401201;
+    text-align:center;
+}
+a {
+    text-decoration:none;
+    color:#fff;
+}
+
 .assignment a:hover {
     color:red;
 }
