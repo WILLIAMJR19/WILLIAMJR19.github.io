@@ -5,10 +5,15 @@ body {
 
 .assignment{
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:21%;
     padding:10px;
     margin:10px;
     margin-bottom: 30px;
-    background:lightgray;
+    background:cadetblue;
     border-radius:5px;
     box-shadow: 5px 8px #401201;
 
@@ -19,7 +24,8 @@ body {
     border: 2px seagreen;
     margin-right:20px;
     border-radius:5px;
-    
+    display:block;
+    margin:auto;
 
 }
 h1{
